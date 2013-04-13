@@ -8,11 +8,11 @@ package group.pals.android.lib.ui.lockpattern;
 
 public final class R {
 	public static final class id {
+		public static final int alp_footer = 0x7f090006;
 		public static final int alp_cancel = 0x7f090007;
+		public static final int alp_confirm = 0x7f090008;
 		public static final int alp_info = 0x7f090004;
 		public static final int alp_lock_pattern = 0x7f090005;
-		public static final int alp_footer = 0x7f090006;
-		public static final int alp_confirm = 0x7f090008;
 	}
 	public static final class style {
 		public static final int Alp_Theme_Dark = 0x7f060000;
@@ -25,8 +25,8 @@ public final class R {
 		public static final int alp_app_name = 0x7f050000;
 		public static final int alp_lockscreen_access_pattern_cell_added = 0x7f050004;
 		public static final int alp_msg_try_again = 0x7f05000e;
-		public static final int alp_cmd_continue = 0x7f050002;
 		public static final int alp_msg_redraw_pattern_to_confirm = 0x7f05000c;
+		public static final int alp_cmd_continue = 0x7f050002;
 		public static final int alp_msg_draw_pattern_to_unlock = 0x7f05000a;
 		public static final int alp_lockscreen_access_pattern_start = 0x7f050007;
 		public static final int alp_cmd_confirm = 0x7f050001;
@@ -41,9 +41,9 @@ public final class R {
 		public static final int alp_lock_pattern_view = 0x7f030003;
 	}
 	public static final class drawable {
+		public static final int alp_indicator_code_lock_point_area_red_holo = 0x7f020006;
 		public static final int alp_btn_code_lock_default_holo = 0x7f020000;
 		public static final int alp_btn_code_lock_touched_holo = 0x7f020001;
-		public static final int alp_indicator_code_lock_point_area_red_holo = 0x7f020006;
 		public static final int alp_indicator_code_lock_drag_direction_green_up = 0x7f020002;
 		public static final int alp_indicator_code_lock_drag_direction_red_up = 0x7f020003;
 		public static final int alp_indicator_code_lock_point_area_green_holo = 0x7f020005;
